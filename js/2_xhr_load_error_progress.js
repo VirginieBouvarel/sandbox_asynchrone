@@ -38,7 +38,7 @@ function getData() {
 
 
 
-// Afin de "retyper" les données reçues au format texte, on peut créer un parser perso 
+// Afin de "retyper" les données reçues au format texte, on peut créer un parser perso (inutile avec un framework) 
 
 function parseJson(object) {
     for (const key in object) {
