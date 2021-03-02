@@ -26,6 +26,7 @@ function getData() {
 
     request.open("GET", "user.json"); // 200 --> responseParsed
     // request.open("GET", "users.json"); // Test ligne 15 --> 404 - Not found
+    // request.open("GET", "https://127.0.0.1:4747"); // Test ligne 19 --> La requête a échoué
     request.send();
   
 }
